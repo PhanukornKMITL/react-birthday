@@ -28,6 +28,10 @@ body {
   background: rgb(204, 107, 204);
 }
 
+.clearButton:hover {
+  background: rgb(204, 107, 204);
+}
+
 .title {
   display: flex;
   flex-direction: row;

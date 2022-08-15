@@ -10,7 +10,7 @@ const DashBoard = () => {
   const [birthdayList, setbirthdayList] = useState();
 
   const clearList = () => {
-    console.log('cloar');
+    setbirthdayList([]);
   };
 
   useEffect(() => {
