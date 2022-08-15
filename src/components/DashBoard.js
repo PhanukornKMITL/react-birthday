@@ -7,15 +7,16 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import BirthDayCard from './BirthDayCard';
 
 const DashBoard = () => {
-  const [birthdayList, setbirthdayList] = useState();
+  const [birthdayList, setbirthdayList] = useState([
+    { name: 'banmk' },
+    { name: 'jest' },
+  ]);
 
   const clearList = () => {
     setbirthdayList([]);
   };
 
-  useEffect(() => {
-    setbirthdayList([{ name: 'banmk' }, { name: 'jest' }]);
-  }, []);
+  useEffect(() => {}, []);
 
   const getBirthDayList = () => {
     return (
