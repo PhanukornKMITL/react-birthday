@@ -21,10 +21,8 @@ body {
 }
 
 .clearButton {
-  display: block;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   background: rgb(204, 107, 204);
 }
 
