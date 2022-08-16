@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import BirthDayCard from './BirthDayCard';
+import PlusBirthDayButton from './PlusBirthDayButton';
 
 const DashBoard = () => {
   const [birthdayList, setbirthdayList] = useState([
@@ -42,7 +43,8 @@ const DashBoard = () => {
             {birthdayList?.length} birthdays today
           </ListSubheader>
 
-          <Button className=""> + </Button>
+          {/* <Button className=""> + </Button> */}
+          <PlusBirthDayButton> </PlusBirthDayButton>
         </div>
       }
     >
